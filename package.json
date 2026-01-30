@@ -1,0 +1,22 @@
+{
+  "name": "detran-backend",
+  "version": "1.0.0",
+  "description": "Backend DETRAN PR - Sistema de Consultas IPVA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "puppeteer": "^21.11.0",
+    "qrcode": "^1.5.3",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
